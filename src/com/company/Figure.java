@@ -1,8 +1,9 @@
 package com.company;
 
 public class Figure {
-    private int canvasLength;
-    private int canvasWidth;
+    private boolean[][] canvas;
 
-
+    public Figure(boolean[][] canvas) {
+        this.canvas = canvas;
+    }
 }
